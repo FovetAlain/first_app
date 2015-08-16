@@ -1,0 +1,10 @@
+class Chien < ActiveRecord::Base
+  def change
+    create_table :chien do |t|
+      t.string :name
+      t.string :race
+
+      t.timestamps null: false
+    end
+  end
+end

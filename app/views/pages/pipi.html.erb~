@@ -1,0 +1,3 @@
+<%= @chien.each do |t|%>
+<h1> Nom :<%= t.name %> </h1>
+<% end %>
